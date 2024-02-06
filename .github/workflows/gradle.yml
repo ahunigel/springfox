@@ -12,10 +12,11 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  workflow_dispatch:
 
 permissions:
   contents: read
 
 jobs:
   build:
-    uses: ahunigel/reusable-workflows/.github/workflows/gradle-jdk8.yml@main
+    uses: ahunigel/reusable-workflows/.github/workflows/gradle.yml@main
