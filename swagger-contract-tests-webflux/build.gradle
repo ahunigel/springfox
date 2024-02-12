@@ -24,7 +24,7 @@ dependencies {
   implementation project(':springfox-petstore-webflux')
   implementation project(':springfox-spring-webflux')
   implementation libs.clientProvided
-  implementation 'org.slf4j:slf4j-simple:2.0.11'
+  implementation 'org.slf4j:slf4j-simple:2.0.12'
 
   implementation(project(path: ':springfox-swagger-ui')) {
     exclude group: 'org.springframework', module: 'spring-web'
